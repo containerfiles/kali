@@ -15,7 +15,7 @@ Kali Linux rolling base image with core security tools for Apple's native [Conta
 
 ```bash
 make build          # Build the image
-make run            # Spawn ephemeral shell at kali.lab
+make run            # Spawn ephemeral shell at kali.box
 ```
 
 ### Cast as standalone binary
@@ -36,7 +36,7 @@ make install     Cast and install to /usr/local/bin
 make uninstall   Remove from /usr/local/bin
 make run         Run the container
 make clean       Remove image and prune unused resources
-make dns         Configure .lab DNS domain (run once, needs sudo)
+make dns         Configure .box DNS domain (run once, needs sudo)
 make nuke        Kill and restart the builder (fixes hangs)
 make help        Show all targets
 ```
